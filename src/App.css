@@ -1,0 +1,29 @@
+.image {
+  background-color: inherit;
+}
+
+.colorb {
+  background-color: #240dfd !important;
+  height: 33vw;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 343px) {
+  .image {
+    max-height: 56vw;
+  }
+
+  .colorb {
+    height: 60vw;
+  }
+}
+
+@media screen and (min-width: 343px) and (max-width: 768px) {
+  .image {
+    max-height: 56vw;
+  }
+
+  .colorb {
+    height: 60vw;
+  }
+}
